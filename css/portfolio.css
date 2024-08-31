@@ -10,12 +10,15 @@
     font-size: 16px;
     font-weight: normal;
     line-height: 30px;
-    
-
+  }
+  /*paracgraph elaborating the project.
+  Padding added to enable equal size of column
+   on the right with image and on the left*/
+  .project-description{
+    padding: 120px 60px;
   }
 
-
-/*Top portion div*/
+/* Top portion div */
 .hero{
   background-color: var(--background-color);
   text-align: center;
