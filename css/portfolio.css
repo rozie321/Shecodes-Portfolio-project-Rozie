@@ -90,4 +90,14 @@ h6{
     padding: 0px;
     text-align: center;
   }
+
+  h2{
+    font-size:30px;
+  }
+  .hero h1{
+    font-size: 44px;
+  }
+  .hero h3 {
+    font-size: 24px;
+  }
 }
