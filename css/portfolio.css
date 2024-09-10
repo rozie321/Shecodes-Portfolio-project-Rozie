@@ -7,22 +7,32 @@
 }
 /*2nd half of home page*/
   p{
+
     font-size: 16px;
     font-weight: normal;
     line-height: 30px;
+
   }
-  /*paracgraph elaborating the project.
+  .project-description h2{
+    font-weight: 700;
+
+  }
+  /*paragraph elaborating the project.
   Padding added to enable equal size of column
    on the right with image and on the left*/
+
   .project-description{
+
     padding: 120px 60px;
   }
 
 /* Top portion div */
 .hero{
+
   background-color: var(--background-color);
   text-align: center;
   padding: 160px 20px;
+
 }
 /*default headings font family*/
 h1,
@@ -31,25 +41,28 @@ h3,
 h4,
 h5,
 h6{
+
   font-family: var(--heading-font-family);
 }
-.hero h1{
+
+.hero h1 {
   font-size: 96px;
   font-weight: 700;
   font-style: normal;
 }
-.hero p{
+.hero p {
   font-family: var(--default-font-family);
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
 }
-.hero h3{
+.hero h3 {
   font-size: 36px;
 }
+
 /*button css variables*/
 
-.get-started-btn{
+.get-started-btn {
   border-radius:4px;
   font-size: 18px;
   display:block;
@@ -60,7 +73,7 @@ h6{
 }
 
 
-.projects-btn{
+.projects-btn {
     border-radius:4px;
     font-size: 18px;
     display:block;
@@ -70,3 +83,11 @@ h6{
     background-color: white;
 }
   
+/* Below changes the padding and the text alignment of the parragraph
+ with the project  description class in a mobile device*/
+@media (max-width: 960px){
+  .project-description{
+    padding: 0px;
+    text-align: center;
+  }
+}
