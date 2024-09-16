@@ -82,12 +82,23 @@ h6{
     color:var(--button-color);
     background-color: white;
 }
+/*About page CSS classes*/
+.aboutme {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+ 
   
 /* Below changes the padding and the text alignment of the parragraph
  with the project  description class in a mobile device*/
 @media (max-width: 960px){
   .project-description{
     padding: 0px;
+    text-align: center;
+  }
+  .aboutme{
+    padding:0px;
     text-align: center;
   }
 
