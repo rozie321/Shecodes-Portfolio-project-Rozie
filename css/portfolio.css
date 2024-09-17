@@ -82,13 +82,22 @@ h6{
     color:var(--button-color);
     background-color: white;
 }
-/*About page CSS classes*/
-.aboutme {
+/*Aboutma and work generic page CSS classes container*/
+
+.content-container {
   background-color: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }
- 
+ .content-container h1{
+  font-size: 64px;
+  line-height:80px;
+ }
+ .content-container h2{
+  font-size: 18px;
+  font-family:var(--default-font-family);
+ }
+
   
 /* Below changes the padding and the text alignment of the parragraph
  with the project  description class in a mobile device*/
@@ -97,7 +106,7 @@ h6{
     padding: 0px;
     text-align: center;
   }
-  .aboutme{
+  .content-container{
     padding:0px;
     text-align: center;
   }
