@@ -98,7 +98,37 @@ h6{
   font-family:var(--default-font-family);
  }
 
+ /*nav bar css properties*/
+ nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+ }
+  nav ul{
+    padding:0;
+    margin:0;
+  }
   
+ nav a{
+  text-decoration: none;
+  color: #272142;
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  transition: all 150ms ease-in-out;
+ }
+  nav a:hover,
+  nav li.active a{
+    color: #6C63FF;
+    }
+ .logo{
+  max-width: 150px;
+  max-height: 41px;
+ }
+
+ .small-logo{
+  max-width: 40px;
+ }
 /* Below changes the padding and the text alignment of the parragraph
  with the project  description class in a mobile device*/
 @media (max-width: 960px){
@@ -119,5 +149,8 @@ h6{
   }
   .hero h3 {
     font-size: 24px;
+  }
+  nav a{
+    font-size: 12px;
   }
 }
