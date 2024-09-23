@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Homepage</title>
+    <meta name="description" content="Roselyn is a well renowned front end developer based in Ireland.
+    She has experience in a myriad of diverse projects.">
+    <title>Front-end developer Roselyn</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,145 +22,168 @@
 
 </head>
 <body>
-    <nav class="d-flex justify-content-between mt-3 mb-3 p-3">
-        <img src="images/logo.png" class="logo d-md-block d-none" alt="logo">
-        <img src="images/small-logo.gif"  class="small-logo d-md-none d-block" alt="small-logo">
-        <ul>
-            <li class="active">
-                <a href="/">Home</a>
-            </li>
-           
-            <li>
-                <a href="/about.html">About</a>
-            </li>
-           
-            <li>
-                
-                <a href="/work.html">Work</a>
-            </li>
+    <div class="nav-bar">
+        <nav class="d-flex justify-content-between mt-3 mb-3 p-3">
+            <img src="images/logo.png" class="logo d-md-block d-none" alt="Roselyn logo">
+            <img src="images/small-logo.gif"  class="small-logo d-md-none d-block" alt="Roselyn small-logo">
+            <ul>
+                <li class="active">
+                    <a href="/" title="Home page">Home</a>
+                </li>
             
-            <li>
-                <a href="/contact.html">Contact</a>
+                <li>
+                    <a href="/about.html" title="About Roselyn page">About</a>
+                </li>
             
-            </li>
-        </ul>
-    </nav>
-    <div class="hero">
-        <h3>Hi i am</h3>
-        <h1>ROSELYN MANEGENE</h1> 
-        <p>I am a Front end developer based in Ireland</p>
-        <button class="get-started-btn rounded">Get Started</button> 
-    </div> 
-    <p class="m-5 text-center">Featured below are some of my best projects</p>
-    <div class="container">
-        <div class="row">
-            <div class="col d-none d-lg-block">
-                <img src="images/yoghurt image.png" class="img-fluid" alt="Yogurt project image">
-            </div>
-            <div class="col">
-                <div class="project-description">
+                <li>
+                    
+                    <a href="/work.html"  title=" Roselyn Work page">Work</a>
+                </li>
                 
-                    <h2 class="mb-5">Yogurt Project</h2>
-
-                    <p class="mb-3">Far far away, behind the word mountains,
-                    far from the countries Vokalia and Consonantia,
-                    there live the blind texts. Separated they live in Bookmarksgrove
-                    right at the coast of the Semantics, a large language ocean. 
-                    A small river named Duden flows by.
-                    </p>
-                </div>
-
-                <button class="projects-btn">View detail project</button>
-
-            </div>
-        </div>
-    
-        <div class="row">
-        
-            <div class="col">
-                <div class="project-description">
+                <li>
+                    <a href="/contact.html" title=" Roselyn contact">Contact</a>
                 
-                    <h2 class="mb-5">Weather Project</h2>
-
-                    <p class="mb-3">Far far away, behind the word mountains,
-                    far from the countries Vokalia and Consonantia,
-                    there live the blind texts. Separated they live in Bookmarksgrove
-                    right at the coast of the Semantics, a large language ocean. 
-                    A small river named Duden flows by.
-                    </p>
-                </div>
-
-                <button class="projects-btn">View detail project</button>
-
-            </div>
-            
-            <div class="col d-none d-lg-block">
-                <img src="images/weather now.png" class="img-fluid" alt="Weather project image">
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col d-none d-lg-block">
-                <img src="images/dictionary.png" class="img-fluid" alt="Yogurt project image">
-            </div>
-            <div class="col">
-                <div class="project-description">
-                
-                    <h2 class="mb-5">Dictionary Project</h2>
-
-                    <p class="mb-3">Far far away, behind the word mountains,
-                    far from the countries Vokalia and Consonantia,
-                    there live the blind texts. Separated they live in Bookmarksgrove
-                    right at the coast of the Semantics, a large language ocean. 
-                    A small river named Duden flows by.
-                    </p>
-                </div>
-
-                <button class="projects-btn">View detail project</button>
-
-            </div>
-        </div>
+                </li>
+            </ul>
+        </nav>
     </div>
-   <footer>
-        <div class="contact-box d-none d-md-flex d-flex justify-content-between">
-            <div>
-                <h4>Work Inquiry</h4>
 
-                <p>Let's work together and i'll help you be all your best</p>
+    <div class="container">
+
+        <div class="hero">
+            <h3>Hi i am</h3>
+            <h1>ROSELYN MANEGENE</h1> 
+            <p>I am a Front end developer based in Ireland</p>
+
+            <button class="get-started-btn rounded">
+
+                <a href="/work.html"alt=" link to Project work page" target="_blank">Get Started</a>
+
+            </button> 
+        </div> 
+        <p class="m-5 text-center">Featured below are some of my best projects</p>
+        <div>
+            <div class="row">
+                <div class="col d-none d-lg-block">
+                    <img src="images/yoghurt image.png" class="img-fluid" alt="Yogurt project image">
+                </div>
+                <div class="col">
+                    <div class="project-description">
+                    
+                        <h2 class="mb-5">Yogurt Project</h2>
+
+                        <p class="mb-3">Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia,
+                        there live the blind texts. Separated they live in Bookmarksgrove
+                        right at the coast of the Semantics, a large language ocean. 
+                        A small river named Duden flows by.
+                        </p>
+                    </div>
+
+                    <button class="projects-btn">
+                        <a href="/work.html">View detail project</a>
+                        </button>
+
+                </div>
+            </div>
+        
+            <div class="row">
+            
+                <div class="col">
+                    <div class="project-description">
+                    
+                        <h2 class="mb-5">Weather Project</h2>
+
+                        <p class="mb-3">Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia,
+                        there live the blind texts. Separated they live in Bookmarksgrove
+                        right at the coast of the Semantics, a large language ocean. 
+                        A small river named Duden flows by.
+                        </p>
+                    </div>
+
+                    <button class="projects-btn">
+                        <a href="/work.html">View detail project</a>
+                       </button>
+
+                </div>
+                
+                <div class="col d-none d-lg-block">
+                    <img src="images/weather now.png" class="img-fluid" alt="Weather project image">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col d-none d-lg-block">
+                    <img src="images/dictionary.png" class="img-fluid" alt="Yogurt project image">
+                </div>
+                <div class="col">
+                    <div class="project-description">
+                    
+                        <h2 class="mb-5">Dictionary Project</h2>
+
+                        <p class="mb-3">Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia,
+                        there live the blind texts. Separated they live in Bookmarksgrove
+                        right at the coast of the Semantics, a large language ocean. 
+                        A small river named Duden flows by.
+                        </p>
+                    </div>
+
+                    <button class="projects-btn">
+                        <a href="/work.html">View detail project</a>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    <footer>
+            <div class="contact-box d-none d-md-flex d-flex justify-content-between">
+                <div>
+                    <h4>Work Inquiry</h4>
+
+                    <p>Let's work together and i'll help you be all your best</p>
+                </div>
+                
+                <div class="mt-5 mb-3">
+
+                <a class="footer-btn" href="/contact.html">Contact Me</a>
+            
+                </div>
             
             </div>
-                <button class="footer-btn">Contact Me</button> 
-            <div> 
-            
+            <div class="mb-3 text-center mt-5">
+                <a href="mailto:roziemanesh@hotmail.com">roziemanesh@hotmail.com</a>
             </div>
-        </div>
-        <div class="mb-3 text-center mt-5">
-            <a href="mailto:roziemanesh@hotmail.com">roziemanesh@hotmail.com</a>
-        </div>
-        <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center">
+                
+                    <a href="https://www.instagram.com/roziemanesh" target="_blank">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="https://www.facebook.com/RozieManesh/" target="_blank">
+
+                        <i class="fa-brands fa-facebook"></i>
+
+                    </a>
             
-                <a href="https://www.instagram.com/roziemanesh" target="_blank">
-
-                    <i class="fa-brands fa-instagram"></i>
-
-                </a>
-
-                <a href="https://www.facebook.com/RozieManesh/" target="_blank">
-
-                    <i class="fa-brands fa-facebook"></i>
-
-                </a>
-           
-           
-                <a href="https://github.com/rozie321" target="_blank">
-
-                    <i class="fa-brands fa-github"></i>
-
-                </a>
             
+                    <a href="https://github.com/rozie321" target="_blank">
 
-        </div>
-    </footer>
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+                
+
+            </div>
+
+            <p class="mt-3 text-center">👌This website was coded by Roselyn Manegene, and is
+                <a  class= "git-href" href="https://github.com/rozie321/Shecodes-Portfolio-project-Rozie">open-sourced</a>
+                </p>
+        </footer>
+    </div>
 </body>
 </html>

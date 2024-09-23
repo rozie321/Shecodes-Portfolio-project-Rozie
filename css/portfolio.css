@@ -5,6 +5,11 @@
   --button-color:#6C63FF;
   --background-color: #F9F7FE;
 }
+/*containing all the content*/
+.container{
+  display:block;
+  margin:0 auto;
+}
 /*2nd half of home page*/
   p{
 
@@ -62,7 +67,15 @@ h4{
 .hero h3 {
   font-size: 36px;
 }
+.hero a{
+  text-decoration:none;
+  color: white;
 
+}
+ .getstarted-href{
+  text-decoration:none;
+  color: white;
+}
 /*button css variables*/
 
 .get-started-btn {
@@ -132,6 +145,9 @@ h4{
  .small-logo{
   max-width: 40px;
  }
+ .nav-bar{
+  margin-right: 100px;
+ }
 
  /*Footer CSS properties*/
  footer{
@@ -144,6 +160,7 @@ footer a{
 }
 footer a:hover{
   color: var(--button-color);
+  background-color: white;
 }
 footer i{
   background-color: var(--background-color);
@@ -166,19 +183,23 @@ footer .contact-box{
   margin:60px 100px;
 
 }
-.footer-btn {
-  border-radius:4px;
-  font-size:18px;
-  padding:20px 60px;
-  display:block;
-  margin:0 auto;
-  background-color:var(--button-color);
-  color: white;
+.git-href{
+  font-size:16px;
+  text-decoration: underline;
 }
 
-
-
-
+.footer-btn {
+  border-radius:4px;
+  margin-top:20px;
+  text-decoration:none;
+  font-weight:400;
+  padding:15px 60px;
+  font-size:18px;
+  text-align:center;
+  background-color:var(--button-color);
+  color: white;
+  
+}
 /* Below changes the padding and the text alignment of the paragraph
  with the project  description class in a mobile device*/
 
